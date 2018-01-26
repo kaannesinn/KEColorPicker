@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82231BEC2019D05E0009ACD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82231BEB2019D05E0009ACD6 /* AppDelegate.m */; };
+		82231BEF2019D05E0009ACD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82231BEE2019D05E0009ACD6 /* ViewController.m */; };
+		82231BF22019D05E0009ACD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82231BF02019D05E0009ACD6 /* Main.storyboard */; };
+		82231BF42019D05E0009ACD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82231BF32019D05E0009ACD6 /* Assets.xcassets */; };
+		82231BF72019D05E0009ACD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82231BF52019D05E0009ACD6 /* LaunchScreen.storyboard */; };
+		82231BFA2019D05E0009ACD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82231BF92019D05E0009ACD6 /* main.m */; };
+		82231C022019D2360009ACD6 /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82231C012019D2360009ACD6 /* ColorsViewController.m */; };
+		827A263D201B08580078D284 /* ColorsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 827A263C201B08580078D284 /* ColorsCollectionViewCell.m */; };
+		827A2640201B1E4E0078D284 /* KEButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 827A263F201B1E4E0078D284 /* KEButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82231BE72019D05E0009ACD6 /* KEColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KEColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82231BEA2019D05E0009ACD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82231BEB2019D05E0009ACD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82231BED2019D05E0009ACD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82231BEE2019D05E0009ACD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82231BF12019D05E0009ACD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82231BF32019D05E0009ACD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82231BF62019D05E0009ACD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82231BF82019D05E0009ACD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82231BF92019D05E0009ACD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82231C002019D2360009ACD6 /* ColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsViewController.h; sourceTree = "<group>"; };
+		82231C012019D2360009ACD6 /* ColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsViewController.m; sourceTree = "<group>"; };
+		827A263B201B08580078D284 /* ColorsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsCollectionViewCell.h; sourceTree = "<group>"; };
+		827A263C201B08580078D284 /* ColorsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsCollectionViewCell.m; sourceTree = "<group>"; };
+		827A263E201B1E4E0078D284 /* KEButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEButton.h; sourceTree = "<group>"; };
+		827A263F201B1E4E0078D284 /* KEButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82231BE42019D05E0009ACD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82231BDE2019D05E0009ACD6 = {
+			isa = PBXGroup;
+			children = (
+				82231BE92019D05E0009ACD6 /* KEColorPicker */,
+				82231BE82019D05E0009ACD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82231BE82019D05E0009ACD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82231BE72019D05E0009ACD6 /* KEColorPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82231BE92019D05E0009ACD6 /* KEColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				82231BEA2019D05E0009ACD6 /* AppDelegate.h */,
+				82231BEB2019D05E0009ACD6 /* AppDelegate.m */,
+				82231BED2019D05E0009ACD6 /* ViewController.h */,
+				82231BEE2019D05E0009ACD6 /* ViewController.m */,
+				82231C002019D2360009ACD6 /* ColorsViewController.h */,
+				82231C012019D2360009ACD6 /* ColorsViewController.m */,
+				827A263B201B08580078D284 /* ColorsCollectionViewCell.h */,
+				827A263C201B08580078D284 /* ColorsCollectionViewCell.m */,
+				827A263E201B1E4E0078D284 /* KEButton.h */,
+				827A263F201B1E4E0078D284 /* KEButton.m */,
+				82231BF02019D05E0009ACD6 /* Main.storyboard */,
+				82231BF32019D05E0009ACD6 /* Assets.xcassets */,
+				82231BF52019D05E0009ACD6 /* LaunchScreen.storyboard */,
+				82231BF82019D05E0009ACD6 /* Info.plist */,
+				82231BF92019D05E0009ACD6 /* main.m */,
+			);
+			path = KEColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82231BE62019D05E0009ACD6 /* KEColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82231BFD2019D05E0009ACD6 /* Build configuration list for PBXNativeTarget "KEColorPicker" */;
+			buildPhases = (
+				82231BE32019D05E0009ACD6 /* Sources */,
+				82231BE42019D05E0009ACD6 /* Frameworks */,
+				82231BE52019D05E0009ACD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KEColorPicker;
+			productName = KEColorPicker;
+			productReference = 82231BE72019D05E0009ACD6 /* KEColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82231BDF2019D05E0009ACD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kaan Esin";
+				TargetAttributes = {
+					82231BE62019D05E0009ACD6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 82231BE22019D05E0009ACD6 /* Build configuration list for PBXProject "KEColorPicker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82231BDE2019D05E0009ACD6;
+			productRefGroup = 82231BE82019D05E0009ACD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82231BE62019D05E0009ACD6 /* KEColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82231BE52019D05E0009ACD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82231BF72019D05E0009ACD6 /* LaunchScreen.storyboard in Resources */,
+				82231BF42019D05E0009ACD6 /* Assets.xcassets in Resources */,
+				82231BF22019D05E0009ACD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82231BE32019D05E0009ACD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82231BEF2019D05E0009ACD6 /* ViewController.m in Sources */,
+				827A2640201B1E4E0078D284 /* KEButton.m in Sources */,
+				82231BFA2019D05E0009ACD6 /* main.m in Sources */,
+				827A263D201B08580078D284 /* ColorsCollectionViewCell.m in Sources */,
+				82231C022019D2360009ACD6 /* ColorsViewController.m in Sources */,
+				82231BEC2019D05E0009ACD6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82231BF02019D05E0009ACD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82231BF12019D05E0009ACD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82231BF52019D05E0009ACD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82231BF62019D05E0009ACD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82231BFB2019D05E0009ACD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82231BFC2019D05E0009ACD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82231BFE2019D05E0009ACD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KEColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesin.KEColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82231BFF2019D05E0009ACD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KEColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesin.KEColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82231BE22019D05E0009ACD6 /* Build configuration list for PBXProject "KEColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82231BFB2019D05E0009ACD6 /* Debug */,
+				82231BFC2019D05E0009ACD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82231BFD2019D05E0009ACD6 /* Build configuration list for PBXNativeTarget "KEColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82231BFE2019D05E0009ACD6 /* Debug */,
+				82231BFF2019D05E0009ACD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82231BDF2019D05E0009ACD6 /* Project object */;
+}
